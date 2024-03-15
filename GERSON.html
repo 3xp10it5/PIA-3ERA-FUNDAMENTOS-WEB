@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerson Francisco Betancourt Gloria</title>
+    <link rel="stylesheet" href="css/gerson.css">
+</head>
+<body>
+    <h1 align="center">Gerson Francisco Betancourt Gloria</h1>
+    <h3 align="center" style="color: #05038b;">Licenciado en Tecnologias de Informacion</h3>
+    <hr></hr>
+    <div class="volver_inicio">
+        <a href="index.html" id="volver">Volver a la pagina inicial</a>
+    </div>
+
+    <hr></hr>
+    <h2 align="center">Informacion personal</h2>
+    <table border="1" align="center" style="border-color: #05051b;">
+        <tbody>
+        <tr>
+		    <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+            <th>Fecha de nacimiento</th>
+            </tr>
+
+            <tr style="color: #05038b;">
+            <th>Gerson Francisco</th>
+            <th>Betancourt Gloria</th>
+            <th>22</th>
+            <th>19/02/2002</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 align="center">Formacion</h2>
+    <table border="1" align="center" style="border-color: #05051b;">
+        <tbody>
+            <tr>
+                <th>Nombre de la escuela</th>
+                <th>Grado</th>
+                <th>Carrera</th>
+                <th>Durante</th>
+	   </tr>
+            <tr style="color: #05038b;">
+                <th>Preparatoria CBtis 74</th>
+                <th>Bachillerato</th>
+                <th>Contabilidad</th>
+                <th>08/2017-06/2020</th>
+            </tr>
+            <tr style="color: #05038b;">
+                <th>Facultad de Contaduria Publica y Administracion</th>
+                <th>Licenciatura</th>
+                <th>Licenciado en Tecnologias de la Informacion</th>
+                <th>08/2020-Actualidad</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1" align="center" style="border-color: #06051b;">
+        <tbody>
+            <tr>
+                <th><a href="Gerson/familia.html">FAMILIA</a></th>
+                <th><a href="Gerson/trabajo.html">TRABAJO</a></th>
+                <th><a href="Gerson/pasatiempo.html">PASATIEMPO</a></th>
+                <th><a href="Gerson/proyecto-profesional.html">PROYECTO PROFESIONAL</a></th>
+	    </tr>
+
+            <tr>
+                <td><img src="Gerson/imggerson/Familia.jpg" width ="350px" height="250px" alt=""></td> 
+                <td><img src="Gerson/imggerson/Trabajo.jpg" width ="300px" height="250px" alt=""></td>
+                <td><img src="Gerson/imggerson/pasatiempo.jpg" width ="350px" height="250px" alt=""></td>
+                <td><img src="Gerson/imggerson/Proyecto.jpg" width ="350px" height="250px" alt=""></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <div class="contenedor">
+        <button class="butonjs" onclick="mostrarAlerta()">Cick aqui</button>
+        <script>
+            function mostrarAlerta() {
+                alert("Esto es una demostracion del uso de javascript");
+            }
+        </script>
+    </div>
+    <p></p>
+    <hr>
+    <h2>Formulario ejemplo</h2>
+        <form action="/submit-form" method="post">
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electronico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje a enviar:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <hr>
+</body>
+</html>

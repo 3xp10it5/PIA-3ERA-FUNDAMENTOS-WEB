@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(45deg, rgb(212, 55, 55), rgb(255, 230, 0) 70%); 
+    transition: background-color 0.5s;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    border: 1px solid black;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.divcentrar{
+    text-align: center;
+    padding: 30px;
+}
+
+.recargarjs{
+    padding: 10px 20px;
+}
+
+#img-familia{
+    width: 200px;
+    height: 200px;
+}
+
+#img-trabajo{
+    width: 200px;
+    height: 200px;
+}
+
+#img-pasatiempo{
+    width: 200px;
+    height: 200px;
+}
+
+#img-proyecto{
+    width: 200px;
+    height: 200px;
+}
+
+.form1{
+    text-align: center;
+    padding: 30px;
+}

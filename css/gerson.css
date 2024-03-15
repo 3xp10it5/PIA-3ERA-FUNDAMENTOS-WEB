@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(174, 196, 241);
+}
+
+table{
+    margin-top: 50px;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 30px;
+}
+
+.botonjs{
+    padding: 10px 20px;
+}
