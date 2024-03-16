@@ -1,0 +1,14 @@
+body {background-color: blue;}
+
+#header1 {
+    border: 5px solid black;
+}
+
+#header1 img {
+    float: right;
+}
+
+#header2 {
+    border: 5px solid yellow;
+}
+

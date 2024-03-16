@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pia-Felipe</title>
+    <link rel="stylesheet" href="Felipe/css/pia.css">
+</head>
+<body>
+    <h1><center><font color= "white">Pagina Principal de Felipe Hernandez</font></center></h1>
+    <div class="volver_inicio">
+        <a href="index.html" id="volver">Volver a la pagina inicial</a>
+    </div>
+
+    <table border="1" align="center" style="border-color: white;">
+        <tbody>
+            <tr>
+                <th><a href="Felipe/Familia.html">Familia</a></th> 
+                <th><a href="Felipe/Trabajo.html">Trabajo</a></th>
+                <th><a href="Felipe/Pasatiempo.html">Pasatiempo</a></th>
+                <th><a href="Felipe/Proyecto.html">Proyecto</a></th>
+            </tr>
+
+            <tr>
+                <td><img id="imgFamilia" src="Felipe/img/Familia.jpeg" alt="" width="280" height="180"></td>
+                <td><img id="imgtrabajo" src="Felipe/img/Trabajo.jpg" alt="" width="280" height="180"></td>
+                <td><img id="imgpasatiempo" src="Felipe/img/soccer.png" alt="" width="280" height="180"></td>
+                <td><img id="imgproyecto" src="Felipe/img/Conferencista.jpg" alt="" width="280" height="180"></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <h2>Este es un pequeño Formulario</h2>
+    <form action="/submit-form" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="Felipe/js/jsPIA.js"></script>
+
+</body>
+</html>
