@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <style>
+        table {
+            width: 55%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="Erick/css/mipagina.css">
+</head>
+<body>
+    <hr>
+    <hr>
+    <p>Matrícula: <span id="matricula">1872639</span></p>
+
+    <h1>Erick Alberto Hernandez Tinajero</h1>
+    <div class="volver_inicio">
+        <a href="index.html" id="volver">Volver a la pagina inicial</a>
+    </div>
+    <table>
+        <tr>
+            <th><a href="Erick/familia1872639.html">Familia</a></th>
+            <th><a href="Erick/trabajo1872639.html">Trabajo</a></th>
+        </tr>
+        <tr>
+            <td><img src="Erick/Imagenes/familiachipi.jpg" alt="Famlia" width="300" height="200"></td>
+            <td><img src="Erick/Imagenes/TPChamba.png" alt="Trabajo" width="300" height="200"></td>
+        </tr>
+        <tr>
+            <th><a href="Erick/pasatiempo1872639.html">Pasatiempo</a></th>
+            <th><a href="Erick/proyecto1872639.html">Proyecto</a></th>
+        </tr>
+        <tr>
+            <td><img src="Erick/Imagenes/warthunder.webp" alt="Pasatiempo" width="400" height="400"></td>
+            <td><img src="Erick/Imagenes/base de datos.png" alt="proyecto" width="300" height="200"></td>
+        </tr>
+    </table>
+    <h2>Contacto con el creador</h2>
+    <form action="/submit-form" method="post">
+        <label for="usuario">Ingrese su Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+
+        <label for="Correo electronico">Ingrese su correo electronico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Escribe tu mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <div class="divcentrar">
+        <button class="recargarjs" onclick="recargarPagina()">Recargar Página</button>
+        <script>
+            function recargarPagina() {
+                location.reload();
+            }
+        </script>
+    </div>
+</body>
+</html>
